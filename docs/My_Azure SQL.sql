@@ -105,7 +105,7 @@
 	-- Create SQL Login template for Azure SQL Database and Azure SQL Data Warehouse Database
 	-- ======================================================================================
 	CREATE LOGIN demouser
-		WITH PASSWORD = 'Dkagh0318' 
+		
 	GO
 	
 	* NickSQLDB -> Security -> Users -> New user
