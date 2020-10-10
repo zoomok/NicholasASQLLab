@@ -61,10 +61,32 @@ with
 ----------------------------------------------------------------------------------------------------------------
 -- 5. Test
 ----------------------------------------------------------------------------------------------------------------
-select	*
+select	*,
+		'SQL0318' as dbnm
 from	lead
 
 union all
 
-select	*
+select	*,
+		'SQL0319'
 from	SQL0319_lead
+;
+
+Lead_Name	Campaign		Product		Last_Updated_Date		dbnm
+-------------------------------------------------------------------------
+John		EmailCampaign	Hydrolics	2020-09-19 22:56:43.507	SQL0318
+Mike		SMSCampaign		Crane		2020-09-19 22:56:43.530	SQL0318
+Lead1		EBS				Hydrolics	2020-09-21 23:32:12.013	SQL0318
+Lead2		BR				Crane		2020-09-21 23:32:12.057	SQL0318
+Lead3		BR				Crane		2020-09-25 23:32:12.063	SQL0318
+John		EmailCampaign	Hydrolics	2020-09-19 22:56:43.507	SQL0319
+Mike		SMSCampaign		Crane		2020-09-19 22:56:43.530	SQL0319
+Lead1		EBS				Hydrolics	2020-09-21 23:32:12.013	SQL0319
+Lead2		BR				Crane		2020-09-21 23:32:12.057	SQL0319
+Lead3		BR				Crane		2020-09-25 23:32:12.063	SQL0319
+Lead1		EBS				Hydrolics	2020-09-21 23:32:12.013	SQL0319
+Lead2		BR				Crane		2020-09-21 23:32:12.057	SQL0319
+Lead3		BR				Crane		2020-09-25 23:32:12.063	SQL0319
+Lead4		IT				BR			2020-10-09 23:41:08.983	SQL0319
+
+--(End)----------------------------------------------------------------------------------------------------------------------
