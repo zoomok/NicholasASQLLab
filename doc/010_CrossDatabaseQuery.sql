@@ -18,7 +18,7 @@ create master key;
 
 create database scoped credential CrossDBCred	-- credential name
 	with identity = 'serveradmin',				-- login or contained user name
-	secret = 'Dkagh0318'						-- login or contained user password
+	secret = 'xxx0318'							-- login or contained user password
 ;
 
 ----------------------------------------------------------------------------------------------------------------
