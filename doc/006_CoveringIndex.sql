@@ -95,3 +95,5 @@ where	c.PersonID between 1 and 20613
 
 select c.PersonID,    c.TerritoryID,    c.StoreID  from sales.Customer c  where c.PersonID between 1 and 20613
   |--Index Seek(OBJECT:([AdventureWorks2012].[Sales].[Customer].[IX_Customer_PersonID_TerritoryID_Store_ID] AS [c]), SEEK:([c].[PersonID] >= (1) AND [c].[PersonID] <= (20613)) ORDERED FORWARD)
+
+--(End)----------------------------------------------------------------------------------------------------------------------
