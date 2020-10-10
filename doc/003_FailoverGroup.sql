@@ -20,3 +20,5 @@
 	3. Delete NickSQLDB (nicksqlserver/NickSQLDB)
 	4. Delete nicksqlserver2
 	5. Delete nicksqlserver
+
+--(End)----------------------------------------------------------------------------------------------------------------------
