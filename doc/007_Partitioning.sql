@@ -218,3 +218,5 @@ select *  from tbl_primes  where my_value = 61027
   |--Clustered Index Seek(OBJECT:([MATH].[dbo].[Tbl_Primes].[PK_Tbl_Primes]), SEEK:([PtnId1000]=RangePartitionNew(CONVERT_IMPLICIT(bigint,[@1],0),(0),(100000),(200000),(300000),(400000),(500000),(600000),(700000),(800000),(900000)) AND [MATH].[dbo].[Tbl_Primes].[My_Value]=CONVERT_IMPLICIT(bigint,[@1],0)) ORDERED FORWARD)
 
 set showplan_all off
+
+--(End)----------------------------------------------------------------------------------------------------------------------
