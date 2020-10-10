@@ -21,3 +21,5 @@
 	* NickElasticPool -> Remove
 * Delete Database : NickSQLDB
 * Delete SQL Server : nicksqlserver
+
+--(End)----------------------------------------------------------------------------------------------------------------------
