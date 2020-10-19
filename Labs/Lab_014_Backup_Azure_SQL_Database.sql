@@ -46,3 +46,5 @@
 		- DacMetadata.xml: This contains the DAC version and the database name
 		- Data: This folder contains a subfolder for each of the tables in the database
 			Thesesubfolders contain the table data in BCP format:
+
+--(End)----------------------------------------------------------------------------------------------------------------------
