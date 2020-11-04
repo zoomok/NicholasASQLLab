@@ -490,4 +490,6 @@ from	users
 -- Run BruteForceAttack.exe
 The connection attempt is made using a different username and password
 
-17. Open Azure SQL Defender
+17. Open Azure SQL Defender and check
+
+--(End)----------------------------------------------------------------------------------------------------------------------
